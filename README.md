@@ -384,7 +384,7 @@
 * If you need to give more info to the user add or modify the README.md content
 * Execute the build.
 
-    grunt
+        grunt
 
 * Commit and push your changes to the repository
     * Add the version and the changelog.txt
