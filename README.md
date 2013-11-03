@@ -51,7 +51,7 @@
 
     * If you use PHPStorm you should add the next line:
 
-        .idea/*
+            .idea/*
 
 * Create a src folder in root.
 * Create a test folder in root.
@@ -373,7 +373,7 @@
     * A minified file version
     * A gzipped file version
 
-        grunt
+            grunt
 
 ##Update your project
 
@@ -392,47 +392,47 @@
     * Open the terminal
     * Change the directory to your project path.
 
-        cd PATH_TO_MY_PROJECT_ROOT_DIRECTORY
+            cd PATH_TO_MY_PROJECT_ROOT_DIRECTORY
 
     * Create a tag
 
-        git tag -a X.X.X -m 'X.X.X'
+            git tag -a X.X.X -m 'X.X.X'
 
     * Share your tag to remote
 
-        git push origin X.X.X
+            git push origin X.X.X
 
 * If you have to update a version
     * Open the terminal
     * Change the directory to your project path.
 
-        cd PATH_TO_MY_PROJECT_ROOT_DIRECTORY
+            cd PATH_TO_MY_PROJECT_ROOT_DIRECTORY
 
     * Delete the tag
 
-        git tag -d X.X.X
+            git tag -d X.X.X
 
     * Delete the remote tag
 
-        git push origin :ref/tags/X.X.X
+            git push origin :ref/tags/X.X.X
 
     * Create a tag
 
-        git tag -a X.X.X -m 'X.X.X'
+            git tag -a X.X.X -m 'X.X.X'
 
     * Share your tag to remote
 
-        git push origin X.X.X
+            git push origin X.X.X
 
 * Check your tags
     * Open the terminal
     * Change the directory to your project path.
 
-        cd PATH_TO_MY_PROJECT_ROOT_DIRECTORY
+            cd PATH_TO_MY_PROJECT_ROOT_DIRECTORY
 
     * Check your tags
 
-        git tag
+            git tag
 
     * See the list of tags
 
